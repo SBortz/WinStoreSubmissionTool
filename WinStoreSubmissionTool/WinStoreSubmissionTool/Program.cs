@@ -12,7 +12,7 @@ namespace WinStoreSubmissionTool
 	{
 		static int Main(string[] args)
 		{
-			var submissionUpdateRunner =  new SubmissionUpdateRunner();
+			var submissionUpdateRunner =  new CsvTransposerRunner();
 			return submissionUpdateRunner.RunSubmissionUpdate();
 		}
 	}
